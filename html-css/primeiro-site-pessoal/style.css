@@ -8,12 +8,24 @@ body {
 .photo_perfil {
     border: #505050 1px solid; 
     border-radius: 50%;
+    margin-bottom: 0px;
+
 }
 
-#title, .subtitle, .post_title {
+.post_title {
     color: darkorange;
     font-size: 40px;
-    text-transform: uppercase;
+}
+
+#title {
+    color: darkorange;
+    font-size: 40px;
+    font-family: monospace;
+}
+
+.subtitle {
+    color: black;
+    font-size: 15px;
 }
 
 a {
@@ -40,6 +52,8 @@ a {
     margin: 0;
     margin-bottom: 15px;
     text-decoration: initial;
+    font-family: verdana;
+    font-style: italic;
 }
 
 .post_image {
